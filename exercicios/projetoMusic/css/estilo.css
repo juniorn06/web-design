@@ -1,0 +1,70 @@
+body{
+	font-family: Nunito;
+	background: #adb5bd;
+}
+
+.head{
+	background-image: url(../imagens/bg-1.jpg);
+	height: 700px;
+	background-position: right center;
+	background-size: cover;
+	border-top: 0.5px solid transparent;
+}
+
+.head-content{
+	text-shadow: 3px 3px 2px #333;
+	text-align: center;
+	margin-top: 150px;
+	text-transform: uppercase;
+}
+
+.head-content h1{
+	color: #eeede7;
+	font-size: 50px;
+	margin-top: 100px;
+}
+
+
+.head-content p{
+	font-size: 30px;
+	color: #dae7dd;
+}
+
+main{
+	width: 85%;
+	margin: auto;
+}
+
+.content-main{
+	background-color: #e9ecef;
+	padding: 10px;
+	margin-top: 15px;
+	overflow: auto;
+	border-radius: 5px;
+
+}
+
+.card{
+	width: 32%;
+	box-sizing: border-box;
+	float: left;
+}
+
+.card-1, .card-2{
+	margin-right: 2%;
+}
+
+.card img{
+	width: 100%;
+	display: block;
+	border-radius: 2px;
+}
+
+.card p{
+	background-color: #212529;
+	color: #fff;
+	border-radius: 3px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+}
