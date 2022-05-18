@@ -121,6 +121,32 @@ li{
     color: #49bf9d;
 }
 
+.buttom-default{
+    background-color: #49bf9d;
+    border: 2px solid #49bf9d;
+    color: white;
+    padding: .75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    display: inline-block;
+}
+
+.buttom-default-stroke{
+    background-color: white;
+    border-color: #efefef;
+    color: inherit;
+}
+
+.buttom-default-small{
+    font-size: .65em;
+}
+
+.buttom-default-full{
+    display: block;
+    text-align: center;
+
+}
+
 .main-header-title{
     font-size: 22px;
     line-height: 1.5;
