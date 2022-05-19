@@ -121,6 +121,29 @@ li{
     color: #49bf9d;
 }
 
+input, label, textarea{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input, textarea{
+    background-color: #ccc;;
+    padding: 15px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    margin-bottom: 15px;
+}
+
+input:focus, textarea:focus{
+    border: 3px solid #49bf9d;
+    outline: none;
+}
+
+textarea{
+    height: 10em;
+}
+
 .buttom-default{
     background-color: #49bf9d;
     border: 2px solid #49bf9d;
@@ -129,6 +152,7 @@ li{
     border-radius: 5px;
     font-size: .8em;
     display: inline-block;
+    width: auto;
 }
 
 .buttom-default-stroke{
@@ -139,6 +163,10 @@ li{
 
 .buttom-default-small{
     font-size: .65em;
+}
+
+.buttom-default-big{
+    font-size: 1em;
 }
 
 .buttom-default-full{
@@ -211,11 +239,32 @@ li{
     box-sizing: border-box;
 }
 
+/* Grid */
+
 .row{
     overflow: auto;
 }
 
 .col-2{
-    width: 50%;
+    width: 48.5%;
+    float: left;
+}
+
+.col-2:first-child{
+    margin-right: 1.5%;
+}
+
+.col-2:last-child{
+    margin-left: 1.5%;
+}
+
+.col-2-3{
+    width: 65%;
+    float: left;
+}
+
+.col-1-3{
+    width: 32%;
+    margin-left: 3%;
     float: left;
 }
